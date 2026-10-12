@@ -1,0 +1,6 @@
+{
+  "name": "Unified Campus Resource & Maintenance System (UCRMS)",
+  "description": "API-first campus resource booking engine and maintenance ticketing platform with automated Event Bridge synchronization and role-based access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
