@@ -179,12 +179,25 @@ router.patch('/users/:id/status', (req, res) => {
 
 router.get('/users', requireRole('Admin'), (_req, res) => res.json(db.getUsers()));
 
-router.get('/admin/audit-logs', requireRole('Admin'), (_req, res) => res.json(db.getAuditLogs()));
+router.get('/admin/audit-logs', requireRole('Admin'), (req, res) => {
+  const limit = Math.max(1, Math.min(100, Number(req.query.limit) || 50));
+  const offset = Math.max(0, Number(req.query.offset) || 0);
+  const logs = db.getAuditLogs();
+  res.json(logs.slice(offset, offset + limit));
+});
 
-router.get('/admin/ticket-logs', requireRole('Admin'), (_req, res) => res.json(db.getAllTicketLogs()));
+router.get('/admin/ticket-logs', requireRole('Admin'), (req, res) => {
+  const limit = Math.max(1, Math.min(100, Number(req.query.limit) || 50));
+  const offset = Math.max(0, Number(req.query.offset) || 0);
+  const logs = db.getAllTicketLogs();
+  res.json(logs.slice(offset, offset + limit));
+});
 
 router.get('/notifications', (req, res) => {
-  res.json(db.getNotifications(actor(res).id));
+  const limit = Math.max(1, Math.min(100, Number(req.query.limit) || 50));
+  const offset = Math.max(0, Number(req.query.offset) || 0);
+  const notifications = db.getNotifications(actor(res).id);
+  res.json(notifications.slice(offset, offset + limit));
 });
 
 router.post('/notifications/test', (_req, res) => {

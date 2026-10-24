@@ -361,8 +361,6 @@ class CampusDatabase {
   private notifications: PushNotification[] = structuredClone(INITIAL_NOTIFICATIONS);
   private auditLogs: AdminAuditLog[] = structuredClone(INITIAL_AUDIT_LOGS);
 
-  // Database-level row-locking simulation (keyed by roomId:date:slot)
-  private activeLocks = new Set<string>();
   // Mutex promise queue for serializable execution
   private mutexChain: Promise<void> = Promise.resolve();
 
@@ -377,25 +375,18 @@ class CampusDatabase {
   }
 
   // Helper to execute inside database lock (simulating SERIALIZABLE row-level locking)
-  private runInLock<T>(lockKey: string, fn: () => Promise<T>): Promise<T> {
+  private runInLock<T>(_lockKey: string, fn: () => Promise<T>): Promise<T> {
     return new Promise((resolve, reject) => {
       this.mutexChain = this.mutexChain
         .then(async () => {
-          if (this.activeLocks.has(lockKey)) {
-            throw new Error(`LOCK_ACQUISITION_TIMEOUT: Row lock contention on resource ${lockKey}`);
-          }
-          this.activeLocks.add(lockKey);
           try {
             const result = await fn();
             resolve(result);
           } catch (err) {
             reject(err);
-          } finally {
-            this.activeLocks.delete(lockKey);
           }
         })
         .catch((err) => {
-          this.activeLocks.delete(lockKey);
           reject(err);
         });
     });
