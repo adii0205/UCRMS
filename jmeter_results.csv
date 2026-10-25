@@ -1,0 +1,1801 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1792912961117,204,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-8,text,false,,265,402,18,35,http://127.0.0.1:3000/api/bookings,202,0,7
+1792912961099,222,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-5,text,false,,265,402,18,35,http://127.0.0.1:3000/api/bookings,217,0,26
+1792912961097,224,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,17,35,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,223,0,27
+1792912961097,224,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-6,text,false,,265,402,18,35,http://127.0.0.1:3000/api/bookings,217,0,27
+1792912961098,222,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-4,text,false,,265,402,18,35,http://127.0.0.1:3000/api/bookings,215,0,25
+1792912961098,223,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-7,text,false,,265,402,18,35,http://127.0.0.1:3000/api/bookings,216,0,26
+1792912961100,221,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-1,text,false,,265,402,18,35,http://127.0.0.1:3000/api/bookings,221,0,23
+1792912961099,221,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,17,35,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,214,0,24
+1792912961099,222,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,17,35,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,222,0,25
+1792912961100,220,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,17,35,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,214,0,23
+1792912961098,222,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,17,35,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,218,0,26
+1792912961099,221,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-3,text,false,,265,402,18,35,http://127.0.0.1:3000/api/bookings,218,0,24
+1792912961116,207,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,17,35,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,207,0,8
+1792912961100,223,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-2,text,false,,265,402,18,35,http://127.0.0.1:3000/api/bookings,223,0,23
+1792912961100,225,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,14,30,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,224,0,24
+1792912961135,194,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,10,20,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,194,0,2
+1792912961135,195,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-9,text,false,,265,402,10,19,http://127.0.0.1:3000/api/bookings,195,0,2
+1792912961156,175,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-10,text,false,,265,402,9,18,http://127.0.0.1:3000/api/bookings,175,0,1
+1792912961158,174,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,9,18,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,174,0,1
+1792912961175,157,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,9,17,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,157,0,1
+1792912961175,158,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-11,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,158,0,1
+1792912961196,137,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,137,0,1
+1792912961196,137,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-12,text,false,,265,402,7,14,http://127.0.0.1:3000/api/bookings,137,0,1
+1792912961215,119,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-13,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,119,0,1
+1792912961218,117,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,13,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,116,0,1
+1792912961235,101,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,6,12,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,101,0,1
+1792912961235,101,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-14,text,false,,265,402,6,12,http://127.0.0.1:3000/api/bookings,101,0,1
+1792912961254,82,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-15,text,false,,265,402,6,12,http://127.0.0.1:3000/api/bookings,82,0,1
+1792912961255,82,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,5,10,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,82,0,1
+1792912961275,62,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,5,9,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,62,0,0
+1792912961275,63,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-16,text,false,,265,402,4,7,http://127.0.0.1:3000/api/bookings,63,0,1
+1792912961295,44,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-17,text,false,,265,402,4,7,http://127.0.0.1:3000/api/bookings,44,0,1
+1792912961295,44,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,3,6,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,44,0,2
+1792912961317,25,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,2,4,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,24,0,1
+1792912961317,25,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-18,text,false,,265,402,2,4,http://127.0.0.1:3000/api/bookings,25,0,2
+1792912961335,9,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,9,0,1
+1792912961335,10,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-19,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,10,0,2
+1792912961355,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-20,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961355,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912961376,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961376,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-21,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961395,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-21,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792912961395,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-22,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,0
+1792912961415,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-22,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912961415,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-23,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792912961434,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-23,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961434,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-24,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792912961454,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-24,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961454,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-25,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792912961474,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-26,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792912961474,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-25,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912961495,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-26,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961494,4,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-27,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,4,0,1
+1792912961515,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-27,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792912961514,4,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-28,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,4,0,1
+1792912961535,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-28,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961535,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-29,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961555,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-29,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961555,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-30,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,0
+1792912961575,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-31,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961576,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-30,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961595,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961596,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-32,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961615,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-33,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961615,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-32,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961636,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-34,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961636,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-33,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912961656,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-35,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792912961657,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961675,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912961675,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-36,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792912961695,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961695,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-37,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,0
+1792912961714,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961714,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-38,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792912961734,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-39,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961735,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961755,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961755,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-40,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961774,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961775,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-41,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,0
+1792912961795,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-42,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961796,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961814,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-43,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792912961814,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912961834,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-44,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961834,4,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912961854,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961854,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-45,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,3,0,2
+1792912961874,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-46,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961875,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961894,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912961894,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-47,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961914,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-48,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961915,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961935,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-49,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792912961936,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912961955,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792912961955,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-50,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792912961975,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792912961994,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-51,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962014,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-52,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962036,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-53,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962055,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-54,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962075,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-55,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792912962094,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-56,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962113,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-57,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962133,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-58,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962154,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-59,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962174,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-60,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962196,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-61,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912962215,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-62,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962234,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-63,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962254,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-64,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962273,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-65,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962294,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-66,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962314,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-67,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962334,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-68,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962355,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-69,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962375,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-70,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792912962395,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-71,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912962415,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-72,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792912962434,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-73,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962455,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-74,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962473,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-75,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962495,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-76,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962514,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-77,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962533,4,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-78,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792912962555,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-79,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962574,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-80,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792912962595,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-81,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962614,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-82,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962636,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-83,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962656,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-84,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792912962676,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-85,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792912962696,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-86,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962717,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-87,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962738,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-88,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962759,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-89,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962780,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-90,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792912962801,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-91,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962820,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-92,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962841,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-93,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962859,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-94,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962879,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-95,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792912962900,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-96,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792912962918,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-97,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792912962938,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-98,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792912962958,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-99,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792912962980,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-100,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913106933,42,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-2,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,37,0,30
+1792913106970,6,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-8,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,3,0,2
+1792913106933,42,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,37,0,29
+1792913106933,42,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-1,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,37,0,29
+1792913106934,41,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-4,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,36,0,29
+1792913106933,42,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-3,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,37,0,29
+1792913106970,6,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913106934,42,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-6,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,39,0,29
+1792913106934,42,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-5,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,37,0,29
+1792913106934,42,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,37,0,29
+1792913106933,42,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,37,0,29
+1792913106934,42,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,37,0,29
+1792913106933,42,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,37,0,29
+1792913106949,27,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-7,text,false,,265,402,8,15,http://127.0.0.1:3000/api/bookings,22,0,15
+1792913106949,27,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,22,0,14
+1792913106989,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913106991,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-9,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107008,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107010,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-10,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107028,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107031,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-11,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107048,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107050,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-12,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107069,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107072,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-13,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107089,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107089,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-14,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107108,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-14,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107109,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-15,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107129,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-16,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107130,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107148,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-17,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107149,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107169,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-18,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107169,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-17,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107189,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-18,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107189,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-19,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107209,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-20,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107210,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-19,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107229,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-20,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107230,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-21,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107249,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-22,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107250,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-21,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107270,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-22,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107270,4,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-23,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913107289,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-24,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107289,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-23,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107309,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-25,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107310,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-24,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107329,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-26,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107330,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-25,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107349,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-26,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107349,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-27,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107369,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-28,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107369,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-27,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792913107388,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-28,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107388,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-29,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107409,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-30,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107410,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-29,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107428,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-31,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107429,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-30,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107449,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-31,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107450,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-32,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,1
+1792913107467,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-32,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107468,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-33,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107490,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-34,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107490,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-33,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107509,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-35,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107511,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-34,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107529,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-36,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107531,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-35,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107550,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-37,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107553,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-36,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107568,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-38,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,1
+1792913107572,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-37,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107588,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-39,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107591,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-38,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107608,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-40,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,1,0,1
+1792913107610,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-39,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107628,3,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-41,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913107631,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-40,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107648,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-42,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,1
+1792913107651,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-41,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107669,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-43,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107670,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-42,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107688,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-44,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,1
+1792913107692,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-43,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107709,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-45,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107711,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-44,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107727,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-46,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107730,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-45,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107748,1,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-47,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,1,0,0
+1792913107752,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-46,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107768,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-48,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107771,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-47,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107788,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-49,text,false,,265,402,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107791,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-48,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107809,2,POST /api/bookings (Same Room & Slot),401,Unauthorized,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-50,text,false,,265,402,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913107811,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-49,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107830,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-50,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107852,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-51,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107869,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-52,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107889,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-53,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107910,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-54,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913107927,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-55,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913107948,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-56,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107970,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-57,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913107990,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-58,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913108008,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-59,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913108029,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-60,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913108049,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-61,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108069,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-62,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913108088,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-63,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108108,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-64,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913108128,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-65,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913108148,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-66,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108168,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-67,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108188,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-68,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913108208,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-69,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913108227,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-70,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108249,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-71,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108270,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-72,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913108289,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-73,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108308,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-74,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913108328,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-75,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108351,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-76,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108369,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-77,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913108390,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-78,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108409,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-79,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913108429,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-80,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792913108448,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-81,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108470,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-82,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108488,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-83,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108508,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-84,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913108529,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-85,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,2
+1792913108549,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-86,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108569,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-87,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913108588,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-88,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108608,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-89,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108629,1,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-90,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792913108648,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-91,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108669,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-92,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913108689,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-93,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913108709,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-94,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913108730,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-95,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108750,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-96,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108770,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-97,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913108789,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-98,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913108808,3,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-99,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913108830,2,GET /api/rooms/room_sh101/availability,401,Unauthorized,TG2: 100 Users Room Availability SLA (Section 5.1) 2-100,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[401]]]
+
+****** comparison: [[[200]]]
+
+/",237,298,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792913708056,39,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-1,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,35,0,23
+1792913708055,40,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-2,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,37,0,24
+1792913708056,39,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-5,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,31,0,23
+1792913708056,39,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-3,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,36,0,23
+1792913708069,26,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-7,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,24,0,10
+1792913708056,39,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-4,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,31,0,23
+1792913708056,39,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-3,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,31,0,23
+1792913708056,39,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-2,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,31,0,23
+1792913708091,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-7,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708069,26,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-6,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,19,0,10
+1792913708055,40,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-5,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,36,0,24
+1792913708056,39,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-6,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,37,0,23
+1792913708056,39,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-1,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,33,0,23
+1792913708091,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-8,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,4,0,1
+1792913708055,40,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-4,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,34,0,24
+1792913708109,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-9,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,2
+1792913708110,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-8,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913708131,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-9,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913708131,5,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-10,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,5,0,2
+1792913708150,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-11,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913708151,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-10,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708170,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-11,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913708170,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-12,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708190,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-13,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,2
+1792913708191,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-12,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913708210,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-13,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913708210,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-14,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708230,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-14,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708230,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-15,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,1
+1792913708250,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-16,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913708251,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-15,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,1
+1792913708271,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-16,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913708271,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-17,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913708289,5,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-18,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,5,0,2
+1792913708291,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-17,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913708310,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-18,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913708311,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-19,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,1
+1792913708330,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-20,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913708331,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-19,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,1
+1792913708351,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-20,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708351,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-21,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,1
+1792913708370,5,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-22,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,5,0,3
+1792913708373,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-21,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913708390,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-22,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708390,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-23,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,1
+1792913708410,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-24,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,2,0,1
+1792913708410,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-23,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708430,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-25,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708431,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-24,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708450,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-25,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708450,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-26,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913708471,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-26,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792913708471,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-27,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708491,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-27,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708490,5,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-28,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,5,0,2
+1792913708511,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-29,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708512,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-28,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913708531,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-29,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708531,5,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-30,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,5,0,1
+1792913708550,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-30,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792913708549,5,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-31,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,5,0,1
+1792913708570,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-32,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708570,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-31,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,1
+1792913708590,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-32,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913708591,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-33,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708609,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-34,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913708610,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-33,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913708631,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-35,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,2
+1792913708632,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-34,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913708650,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-36,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,2
+1792913708651,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-35,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913708671,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-36,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708670,6,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-37,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,6,0,2
+1792913708688,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-38,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708691,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-37,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913708709,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-38,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913708709,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-39,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,1
+1792913708730,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-40,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,2,0,0
+1792913708730,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-39,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708750,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-40,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913708750,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-41,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913708770,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-41,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913708771,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-42,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708789,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-43,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,2
+1792913708792,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-42,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,2
+1792913708811,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-43,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708811,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-44,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,1
+1792913708829,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-45,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913708831,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-44,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913708850,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-46,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792913708850,6,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-45,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,6,0,2
+1792913708869,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-47,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708872,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-46,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913708892,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-48,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,2
+1792913708892,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-47,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913708909,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-49,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708910,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-48,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913708929,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-50,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792913708930,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-49,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792913708951,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-50,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913708971,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-51,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913708989,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-52,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709010,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-53,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709030,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-54,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709049,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-55,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709070,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-56,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709091,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-57,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709111,8,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-58,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,8,0,6
+1792913709130,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-59,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709150,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-60,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709169,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-61,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709189,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-62,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709210,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-63,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709230,5,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-64,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913709250,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-65,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709271,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-66,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709289,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-67,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709310,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-68,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709329,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-69,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709350,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-70,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709369,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-71,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709390,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-72,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709409,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-73,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709430,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-74,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913709450,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-75,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709471,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-76,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709490,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-77,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709511,5,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-78,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913709530,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-79,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709550,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-80,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709571,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-81,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709589,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-82,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709608,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-83,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709629,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-84,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792913709650,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-85,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709670,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-86,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709690,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-87,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709708,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-88,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709730,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-89,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709751,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-90,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792913709771,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-91,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709791,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-92,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792913709810,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-93,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709830,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-94,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709851,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-95,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709871,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-96,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792913709889,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-97,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709909,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-98,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709928,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-99,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792913709949,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-100,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573527,46,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-3,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,40,0,29
+1792915573564,10,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-8,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,6,0,2
+1792915573526,47,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-1,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,41,0,30
+1792915573526,47,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-2,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,41,0,30
+1792915573526,47,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-3,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,43,0,30
+1792915573528,46,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-5,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,40,0,29
+1792915573528,46,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-5,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,42,0,29
+1792915573527,47,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-6,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,43,0,30
+1792915573561,13,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-7,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,8,0,1
+1792915573540,34,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-6,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,28,0,17
+1792915573542,32,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-7,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,26,0,15
+1792915573526,47,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-1,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,40,0,30
+1792915573527,46,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-4,text,false,,299,348,8,15,http://127.0.0.1:3000/api/bookings,42,0,29
+1792915573526,47,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-2,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,40,0,30
+1792915573528,46,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-4,text,true,,920,244,7,15,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,39,0,29
+1792915573581,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-8,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573581,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-9,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915573599,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-9,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573602,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-10,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,0
+1792915573619,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-10,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573622,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-11,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915573640,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-11,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792915573641,1,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-12,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,1,0,0
+1792915573660,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-12,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573662,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-13,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915573679,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-13,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915573680,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-14,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,2
+1792915573701,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-14,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573702,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-15,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915573721,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-15,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915573721,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-16,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792915573740,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-16,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915573742,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-17,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915573759,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-17,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573761,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-18,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915573780,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-18,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573782,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-19,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915573801,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-20,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915573801,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-19,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792915573820,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-20,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792915573823,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-21,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915573839,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-21,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573842,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-22,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,3
+1792915573862,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-22,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915573862,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-23,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792915573880,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-23,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915573881,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-24,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,1
+1792915573901,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-25,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915573901,5,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-24,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,1
+1792915573921,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-25,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,2
+1792915573922,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-26,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,2,0,0
+1792915573939,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-26,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573941,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-27,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915573959,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-27,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915573962,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-28,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,1,0,0
+1792915573979,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-28,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915573980,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-29,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,4,0,2
+1792915574000,6,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-29,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,5,0,2
+1792915574001,7,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-30,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,7,0,3
+1792915574020,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-30,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792915574021,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-31,text,false,,299,348,1,2,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915574039,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-31,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574041,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-32,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915574060,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-32,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574062,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-33,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,2
+1792915574080,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-33,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574082,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-34,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915574098,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-34,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574102,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-35,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915574120,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-35,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574121,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-36,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915574140,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-36,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792915574143,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-37,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915574159,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-37,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574160,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-38,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915574180,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-38,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574181,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-39,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915574199,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-39,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574200,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-40,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,2
+1792915574220,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-40,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574222,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-41,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,2
+1792915574240,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-41,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574242,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-42,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915574259,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-42,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574262,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-43,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915574281,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-43,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574283,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-44,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915574300,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-44,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792915574302,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-45,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,1
+1792915574320,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-45,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574322,3,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-46,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,3,0,2
+1792915574341,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-46,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574342,4,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-47,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,4,0,2
+1792915574359,4,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-47,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,4,0,2
+1792915574362,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-48,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915574379,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-48,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574382,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-49,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915574400,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-49,text,true,,920,244,1,2,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792915574404,2,POST /api/bookings (Same Room & Slot),400,Bad Request,TG1: 50 Concurrent Booking Requests (ACID Lock) 1-50,text,false,,299,348,1,1,http://127.0.0.1:3000/api/bookings,2,0,1
+1792915574421,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-50,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574439,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-51,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792915574460,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-52,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792915574480,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-53,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574501,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-54,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574520,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-55,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574539,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-56,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574559,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-57,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,1
+1792915574579,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-58,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574598,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-59,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574619,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-60,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574640,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-61,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574659,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-62,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574679,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-63,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574699,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-64,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574720,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-65,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574739,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-66,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,0
+1792915574760,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-67,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574778,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-68,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574797,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-69,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574817,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-70,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574838,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-71,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,3,0,2
+1792915574858,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-72,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574878,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-73,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792915574899,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-74,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574917,3,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-75,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574938,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-76,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574957,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-77,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574978,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-78,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915574999,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-79,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792915575017,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-80,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575037,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-81,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792915575057,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-82,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575079,1,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-83,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792915575098,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-84,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575117,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-85,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575137,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-86,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575157,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-87,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575178,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-88,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575198,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-89,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792915575217,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-90,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575237,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-91,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575258,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-92,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575279,1,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-93,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792915575299,1,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-94,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792915575318,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-95,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575337,1,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-96,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792915575357,1,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-97,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,0
+1792915575378,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-98,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
+1792915575398,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-99,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,2,0,1
+1792915575417,2,GET /api/rooms/room_sh101/availability,200,OK,TG2: 100 Users Room Availability SLA (Section 5.1) 2-100,text,true,,920,244,1,1,http://127.0.0.1:3000/api/rooms/room_sh101/availability?date=2026-10-12,1,0,1
