@@ -32,6 +32,7 @@ export interface Room {
   floor: string;
   capacity: number;
   equipment: string[];
+  imageUrl?: string;
   isSuspended: boolean;
   activeTicketId?: string | null;
   suspensionReason?: string | null;

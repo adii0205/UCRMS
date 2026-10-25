@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node ./node_modules/tsx/dist/cli.mjs server.ts",
-    "start": "node ./node_modules/tsx/dist/cli.mjs server.ts",
-    "build": "node ./node_modules/vite/bin/vite.js build",
-    "test": "node ./node_modules/tsx/dist/cli.mjs --test server/__tests__/concurrency.test.ts",
-    "preview": "node ./node_modules/vite/bin/vite.js preview",
+    "dev": "tsx server.ts",
+    "start": "tsx server.ts",
+    "build": "vite build",
+    "test": "tsx --test server/__tests__/concurrency.test.ts",
+    "preview": "vite preview",
     "clean": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
-    "lint": "node ./node_modules/typescript/bin/tsc --noEmit"
+    "lint": "tsc --noEmit"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
@@ -28,6 +28,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.21",
+    "docx": "^9.14.0",
     "esbuild": "^0.28.0",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.21.0",

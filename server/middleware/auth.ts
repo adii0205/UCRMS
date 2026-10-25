@@ -2,7 +2,30 @@ import type { NextFunction, Request, Response } from 'express';
 import { db } from '../db';
 
 export function authenticate(req: Request, res: Response, next: NextFunction) {
-  const userId = req.get('x-user-id') || 'usr_student_1';
+  // Support Bearer token (e.g. "Bearer demo-token-usr_student_1") or X-User-Id header for compatibility
+  const authHeader = req.get('authorization') || '';
+  let userId = '';
+
+  if (authHeader.startsWith('Bearer demo-token-')) {
+    userId = authHeader.slice('Bearer demo-token-'.length).trim();
+  } else if (authHeader.startsWith('Bearer ')) {
+    const raw = authHeader.slice('Bearer '.length).trim();
+    if (raw.includes('UCRMS_STUDENT_SESSION_TOKEN') || raw.startsWith('usr_')) {
+      userId = 'usr_student_1';
+    } else {
+      userId = raw;
+    }
+  }
+
+  if (!userId) {
+    userId = req.get('x-user-id') || '';
+  }
+
+  if (!userId) {
+    res.status(401).json({ error: '401 Unauthorized: Missing or invalid authentication token.' });
+    return;
+  }
+
   const user = db.getUserById(userId);
 
   if (!user) {

@@ -1,18 +1,11 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { api } from './server/api';
-import { User, Room, Booking, Ticket, PushNotification, UserRole } from './types';
+import { User, Room, Booking, Ticket } from './types';
 import { Header, MainViewMode } from './components/layout/Header';
-import { MobileShell } from './components/mobile/MobileShell';
+import { PortalHome } from './components/home/PortalHome';
+import { DesktopDashboard } from './components/desktop/DesktopDashboard';
 import { AdminConsole } from './components/admin/AdminConsole';
-import { EventBridgeVisualizer } from './components/eventbridge/EventBridgeVisualizer';
 import { ConcurrencyTester } from './components/testing/ConcurrencyTester';
-import { ApiExplorer } from './components/api/ApiExplorer';
-import { ArchitectureDiagrams } from './components/diagrams/ArchitectureDiagrams';
 import { JMeterTestSuite } from './components/jmeter/JMeterTestSuite';
 import { LoginModal } from './components/auth/LoginModal';
 
@@ -21,44 +14,35 @@ export default function App() {
   const [rooms, setRooms] = useState<Room[]>([]);
   const [bookings, setBookings] = useState<Booking[]>([]);
   const [tickets, setTickets] = useState<Ticket[]>([]);
-  const [notifications, setNotifications] = useState<PushNotification[]>([]);
-  const [currentView, setCurrentView] = useState<MainViewMode>('mobile');
+  const [currentView, setCurrentView] = useState<MainViewMode>('home');
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
   const [loadError, setLoadError] = useState<string | null>(null);
 
-  // Push notification alert toast
-  const [activeToast, setActiveToast] = useState<PushNotification | null>(null);
+  const [bookingModalDirect, setBookingModalDirect] = useState(false);
+  const [ticketModalDirect, setTicketModalDirect] = useState(false);
 
-  // Synchronize state with real API
   const refreshData = useCallback(async () => {
     setCurrentUser(api.getCurrentUser());
     try {
-      const [r, b, t, n] = await Promise.all([
+      const [r, b, t] = await Promise.all([
         api.getRooms(),
         api.getBookings(),
         api.getTickets(),
-        api.getNotifications(),
       ]);
       setLoadError(null);
       setRooms(r);
       setBookings(b);
       setTickets(t);
-      setNotifications(n);
-
-      const latestUnread = n.find((notif) => !notif.isRead && notif.category === 'event_bridge_alert');
-      if (latestUnread && latestUnread.id !== activeToast?.id) {
-        setActiveToast(latestUnread);
-      }
     } catch (error) {
       setLoadError(error instanceof Error ? error.message : 'Unable to load application data.');
     }
-  }, [activeToast]);
+  }, []);
 
   useEffect(() => {
     refreshData();
   }, [refreshData]);
 
-  const handleSwitchRole = async (role: UserRole) => {
+  const handleSwitchRole = async (role: User['role']) => {
     try {
       await api.switchUserByRole(role);
       setCurrentUser(api.getCurrentUser());
@@ -68,33 +52,10 @@ export default function App() {
     }
   };
 
-  const handleDismissNotification = async (id: string) => {
-    try {
-      await api.markNotificationAsRead(id);
-      if (activeToast?.id === id) {
-        setActiveToast(null);
-      }
-      await refreshData();
-    } catch (error) {
-      setLoadError(error instanceof Error ? error.message : 'Unable to dismiss notification.');
-    }
-  };
-
-  const handleSendTestPush = async () => {
-    try {
-      const notification = await api.sendTestPush();
-      setActiveToast(notification);
-      await refreshData();
-    } catch (error) {
-      setLoadError(error instanceof Error ? error.message : 'Unable to send test notification.');
-    }
-  };
-
   const handleResetDb = async () => {
     if (window.confirm('Reset database to canonical seeds?')) {
       try {
         await api.resetDatabase();
-        setActiveToast(null);
         await refreshData();
       } catch (error) {
         setLoadError(error instanceof Error ? error.message : 'Unable to reset demo data.');
@@ -103,62 +64,63 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans selection:bg-blue-500 selection:text-white">
-      {/* Navigation & Persona Header */}
+    <div className="min-h-screen bg-[#FDFCFB] text-stone-900 flex flex-col font-sans">
       <Header
         currentView={currentView}
         onSelectView={setCurrentView}
         currentUser={currentUser}
         onSwitchRole={handleSwitchRole}
-        notifications={notifications}
-        onDismissNotification={handleDismissNotification}
         onResetDb={handleResetDb}
         onOpenLogin={() => setIsLoginModalOpen(true)}
       />
 
       {loadError && (
-        <div role="alert" className="mx-auto mt-3 w-full max-w-7xl px-4 text-sm text-red-700 dark:text-red-300">
-          <div className="flex items-center justify-between rounded-lg border border-red-200 bg-red-50 px-4 py-3 dark:border-red-900 dark:bg-red-950/50">
+        <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 mt-4">
+          <div className="p-3.5 bg-red-50 border border-red-200 text-xs font-medium text-red-800 rounded-lg flex justify-between items-center">
             <span>{loadError}</span>
-            <button type="button" onClick={refreshData} className="font-semibold underline">Retry</button>
+            <button onClick={refreshData} className="underline font-semibold">Retry</button>
           </div>
         </div>
       )}
 
-      {/* Main Content Area */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        {currentView === 'mobile' && (
-          <div className="space-y-4">
-            <div className="text-center max-w-lg mx-auto">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">
-                Native Mobile Client Simulation · REQ-5.1 - REQ-5.3
-              </span>
-              <h2 className="text-lg font-bold text-slate-900 dark:text-white mt-0.5">
-                Android Material 3 Client ({currentUser.role} View)
-              </h2>
-              <p className="text-xs text-slate-500 mt-1">
-                Experience the mobile-first campus client: 3-tap ticket reporting, push notification
-                delivery with deep linking, and transaction-protected booking.
-              </p>
-            </div>
-
-            <MobileShell
-              currentUser={currentUser}
-              rooms={rooms}
-              bookings={bookings}
-              tickets={tickets}
-              notifications={notifications}
-              activeNotification={activeToast}
-              onDismissNotification={handleDismissNotification}
-              onSwitchUser={handleSwitchRole}
-              onRefreshData={refreshData}
-              onSendTestPush={handleSendTestPush}
-              onResetDb={handleResetDb}
-            />
-          </div>
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {currentView === 'home' && (
+          <PortalHome
+            currentUser={currentUser}
+            rooms={rooms}
+            bookings={bookings}
+            tickets={tickets}
+            onNavigate={(view) => setCurrentView(view)}
+            onOpenBooking={() => {
+              setCurrentView('dashboard');
+              setBookingModalDirect(true);
+            }}
+            onOpenTicket={() => {
+              setCurrentView('dashboard');
+              setTicketModalDirect(true);
+            }}
+          />
         )}
 
-        {currentView === 'admin' && (
+        {currentView === 'dashboard' && (
+          <DesktopDashboard
+            currentUser={currentUser}
+            rooms={rooms}
+            bookings={bookings}
+            tickets={tickets}
+            onRefreshData={refreshData}
+            openBookingDirectly={bookingModalDirect}
+            openTicketDirectly={ticketModalDirect}
+          />
+        )}
+
+        {currentView === 'concurrency' && (
+          <ConcurrencyTester rooms={rooms} onRefreshData={refreshData} />
+        )}
+
+        {currentView === 'jmeter' && <JMeterTestSuite />}
+
+        {currentView === 'admin' && currentUser.role === 'Admin' && (
           <AdminConsole
             currentUser={currentUser}
             rooms={rooms}
@@ -167,51 +129,45 @@ export default function App() {
             onRefreshData={refreshData}
           />
         )}
-
-        {currentView === 'eventbridge' && (
-          <EventBridgeVisualizer
-            rooms={rooms}
-            tickets={tickets}
-            bookings={bookings}
-            currentUser={currentUser}
-            onRefreshData={refreshData}
-          />
-        )}
-
-        {currentView === 'concurrency' && (
-          <ConcurrencyTester rooms={rooms} onRefreshData={refreshData} />
-        )}
-
-        {currentView === 'jmeter' && (
-          <JMeterTestSuite rooms={rooms} onRefreshData={refreshData} />
-        )}
-
-        {currentView === 'apiexplorer' && (
-          <ApiExplorer
-            currentUser={currentUser}
-            rooms={rooms}
-            onRefreshData={refreshData}
-          />
-        )}
-
-        {currentView === 'architecture' && <ArchitectureDiagrams />}
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 py-4 text-center text-xs text-slate-500">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>
-            Unified Campus Resource &amp; Maintenance System (UCRMS) · IIIT Pune SE Lab 2026
-          </span>
-          <div className="flex items-center gap-4 text-[11px]">
-            <span>ACID Concurrency Engine</span>
-            <span>·</span>
-            <span>Automated Event Bridge</span>
-            <span>·</span>
-            <span>Role-Based Access Control</span>
+      {/* Institutional Footer (IBTE Style) */}
+      <footer className="border-t border-stone-200 bg-white py-8 text-xs text-stone-500 mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-stone-100 pb-6">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-lg bg-[#4F46E5] text-white flex items-center justify-center font-bold text-sm">
+                U
+              </div>
+              <div>
+                <span className="font-bold text-sm text-stone-900 block leading-tight">
+                  Indian Institute of Information Technology Pune
+                </span>
+                <span className="text-[11px] text-stone-500">
+                  Estate, Academic Infrastructure &amp; Maintenance Management Portal
+                </span>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-4 text-xs">
+              <span className="font-medium text-stone-700">Campus Address:</span>
+              <span>Talegaon Dabhade, Pune, Maharashtra 410507</span>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-stone-400">
+            <span>© 2026 IIIT Pune. All rights reserved.</span>
+            <div className="flex items-center gap-4">
+              <span>ACID Row Lock Engine</span>
+              <span>·</span>
+              <span>Safety EventBridge</span>
+              <span>·</span>
+              <span>JMeter Test Ready</span>
+            </div>
           </div>
         </div>
       </footer>
+
       {isLoginModalOpen && (
         <LoginModal
           onClose={() => setIsLoginModalOpen(false)}

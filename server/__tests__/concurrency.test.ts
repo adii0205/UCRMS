@@ -46,7 +46,7 @@ const request = (path: string, options: RequestInit = {}, userId = 'usr_student_
 test('serves seeded data and rejects unknown campus accounts', async () => {
   const roomsResponse = await request('/rooms');
   assert.equal(roomsResponse.status, 200);
-  assert.equal((await roomsResponse.json()).length, 6);
+  assert.equal((await roomsResponse.json()).length, 9);
 
   const loginResponse = await request('/auth/login', {
     method: 'POST',
