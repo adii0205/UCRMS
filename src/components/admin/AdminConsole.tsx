@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { api } from '../../server/api';
 import { Room, Booking, Ticket, User, AdminAuditLog, TicketStateLog } from '../../types';
 import { StateBadge, PriorityBadge, BookingBadge, RoleBadge } from '../common/Badge';
-import { Shield, UserCheck, UserX, AlertCircle, RefreshCw } from 'lucide-react';
+import { Shield, UserCheck, UserX, AlertCircle, RefreshCw, Cpu, Activity } from 'lucide-react';
+import { ConcurrencyTester } from '../testing/ConcurrencyTester';
+import { JMeterTestSuite } from '../jmeter/JMeterTestSuite';
 
 interface AdminConsoleProps {
   currentUser: User;
@@ -19,7 +21,7 @@ export const AdminConsole: React.FC<AdminConsoleProps> = ({
   tickets,
   onRefreshData,
 }) => {
-  const [activeTab, setActiveTab] = useState<'oversight' | 'users' | 'suspensions' | 'audit'>('oversight');
+  const [activeTab, setActiveTab] = useState<'oversight' | 'users' | 'suspensions' | 'audit' | 'concurrency' | 'jmeter'>('oversight');
   const [userList, setUserList] = useState<User[]>([]);
   const [auditLogs, setAuditLogs] = useState<AdminAuditLog[]>([]);
   const [overrideRoomId, setOverrideRoomId] = useState<string>('');
@@ -280,6 +282,19 @@ export const AdminConsole: React.FC<AdminConsoleProps> = ({
               </tbody>
             </table>
           </div>
+        </div>
+      )}
+      {/* TAB 5: CONCURRENCY ENGINE */}
+      {activeTab === 'concurrency' && (
+        <div className="space-y-4">
+          <ConcurrencyTester rooms={rooms} onRefreshData={onRefreshData} />
+        </div>
+      )}
+
+      {/* TAB 6: JMETER DIAGNOSTICS */}
+      {activeTab === 'jmeter' && (
+        <div className="space-y-4">
+          <JMeterTestSuite />
         </div>
       )}
     </div>

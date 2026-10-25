@@ -8,7 +8,7 @@ import {
   Layers,
   ArrowRight,
   BookOpen,
-  Sparkles
+  Building2
 } from 'lucide-react';
 
 interface PortalHomeProps {
@@ -96,8 +96,8 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
         </div>
 
         <div className="relative z-10 px-6 py-14 sm:px-12 sm:py-16 max-w-2xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-white/20 text-white border border-white/30 backdrop-blur-md mb-4 shadow-xs">
-            <Sparkles className="w-3.5 h-3.5 text-indigo-300" />
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-semibold bg-white/20 text-white border border-white/30 backdrop-blur-md mb-4 shadow-xs">
+            <Building2 className="w-4 h-4 text-indigo-200" />
             <span>Unified Campus Resource &amp; Maintenance System</span>
           </div>
 
@@ -105,14 +105,14 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
             Empowering Campus Ambitions Through Seamless Infrastructure
           </h1>
 
-          <p className="mt-4 text-sm sm:text-base text-stone-100 leading-relaxed font-normal drop-shadow-xs">
+          <p className="mt-4 text-base sm:text-lg text-stone-100 leading-relaxed font-normal drop-shadow-xs">
             Indian Institute of Information Technology Pune portal for academic room booking, state-of-the-art laboratory scheduling, work order dispatch, and concurrency-verified facilities.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <button
               onClick={() => onNavigate('dashboard')}
-              className="px-6 py-3 bg-[#4F46E5] hover:bg-[#4338CA] text-white text-xs sm:text-sm font-bold rounded-xl shadow-md flex items-center gap-2 transition-all transform hover:-translate-y-0.5"
+              className="px-6 py-3 bg-[#4F46E5] hover:bg-[#4338CA] text-white text-sm sm:text-base font-semibold rounded-xl shadow-md flex items-center gap-2 transition-all transform hover:-translate-y-0.5"
             >
               <Calendar className="w-4 h-4" />
               <span>Explore Facilities &amp; Book</span>
@@ -120,7 +120,7 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
 
             <button
               onClick={onOpenTicket}
-              className="px-6 py-3 bg-white/20 hover:bg-white/30 text-white text-xs sm:text-sm font-bold rounded-xl border border-white/30 backdrop-blur-md flex items-center gap-2 transition-all"
+              className="px-6 py-3 bg-white/20 hover:bg-white/30 text-white text-sm sm:text-base font-semibold rounded-xl border border-white/30 backdrop-blur-md flex items-center gap-2 transition-all"
             >
               <Wrench className="w-4 h-4 text-amber-300" />
               <span>Report Campus Issue</span>
@@ -131,15 +131,15 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
           <div className="mt-10 pt-6 border-t border-white/20 grid grid-cols-3 gap-6 text-left">
             <div>
               <div className="text-3xl font-extrabold text-white drop-shadow-xs">{rooms.length}</div>
-              <div className="text-xs text-stone-200 font-medium">Campus Facilities</div>
+              <div className="text-sm text-stone-200 font-medium">Campus Facilities</div>
             </div>
             <div>
               <div className="text-3xl font-extrabold text-white drop-shadow-xs">{activeBookingsCount}</div>
-              <div className="text-xs text-stone-200 font-medium">Active Bookings</div>
+              <div className="text-sm text-stone-200 font-medium">Active Bookings</div>
             </div>
             <div>
               <div className="text-3xl font-extrabold text-white drop-shadow-xs">{activeTicketsCount}</div>
-              <div className="text-xs text-stone-200 font-medium">Open Work Orders</div>
+              <div className="text-sm text-stone-200 font-medium">Open Work Orders</div>
             </div>
           </div>
         </div>
@@ -148,8 +148,8 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
       {/* QUICK LINKS SECTION (IBTE Style 3x2 Grid) */}
       <section className="space-y-6">
         <div className="text-center max-w-xl mx-auto">
-          <h2 className="text-2xl font-bold text-stone-900 tracking-tight">Quick Links &amp; Campus Services</h2>
-          <p className="text-xs sm:text-sm text-stone-500 mt-1.5 font-medium">
+          <h2 className="text-2xl sm:text-3xl font-bold text-stone-900 tracking-tight">Quick Links &amp; Campus Services</h2>
+          <p className="text-sm sm:text-base text-stone-600 mt-1.5 font-medium">
             Easily access important facilities, resource scheduling, safety logs, and diagnostic performance suites.
           </p>
         </div>
@@ -167,15 +167,15 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
                   <div className={`w-11 h-11 rounded-xl flex items-center justify-center border mb-3 ${item.accentColor}`}>
                     <Icon className="w-5 h-5" />
                   </div>
-                  <h3 className="text-sm font-bold text-stone-900 group-hover:text-[#4F46E5] transition-colors">
+                  <h3 className="text-base font-bold text-stone-900 group-hover:text-[#4F46E5] transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-xs text-stone-500 mt-1.5 leading-relaxed font-normal">
+                  <p className="text-sm text-stone-600 mt-2 leading-relaxed font-normal">
                     {item.description}
                   </p>
                 </div>
 
-                <div className="mt-4 pt-3 border-t border-stone-100 flex items-center gap-1.5 text-xs font-bold text-[#4F46E5]">
+                <div className="mt-4 pt-3 border-t border-stone-100 flex items-center gap-1.5 text-sm font-semibold text-[#4F46E5]">
                   <span>Access Service</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                 </div>
@@ -190,13 +190,13 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div>
             <h2 className="text-2xl font-bold text-stone-900 tracking-tight">Key Campus Facilities</h2>
-            <p className="text-xs sm:text-sm text-stone-500 mt-1 font-medium">
+            <p className="text-sm sm:text-base text-stone-600 mt-1 font-medium">
               Equipped with modern infrastructure, high-density networking, and verified safety monitoring.
             </p>
           </div>
           <button
             onClick={() => onNavigate('dashboard')}
-            className="text-xs font-bold text-[#4F46E5] hover:text-[#4338CA] flex items-center gap-1"
+            className="text-sm font-semibold text-[#4F46E5] hover:text-[#4338CA] flex items-center gap-1"
           >
             <span>View All ({rooms.length}) Facilities</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -231,15 +231,15 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
 
               <div className="p-4 flex-1 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-sm font-bold text-stone-900 group-hover:text-[#4F46E5] transition-colors line-clamp-1">
+                  <h3 className="text-base font-bold text-stone-900 group-hover:text-[#4F46E5] transition-colors line-clamp-1">
                     {room.name}
                   </h3>
-                  <div className="text-xs text-stone-500 mt-1 font-medium">
+                  <div className="text-sm text-stone-500 mt-1 font-medium">
                     {room.building} · Cap: {room.capacity}
                   </div>
                 </div>
 
-                <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-xs">
+                <div className="mt-4 pt-3 border-t border-stone-100 flex items-center justify-between text-sm">
                   <span className="text-stone-500 truncate max-w-[120px]">{room.equipment[0] || 'Standard Tech'}</span>
                   <span className="font-bold text-[#4F46E5] group-hover:underline">
                     Reserve &rarr;
@@ -257,7 +257,7 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
           <h2 className="text-2xl font-bold text-stone-900 tracking-tight">
             Campus Infrastructure Management Standards
           </h2>
-          <p className="text-xs sm:text-sm text-stone-500 mt-1.5 font-medium">
+          <p className="text-sm sm:text-base text-stone-600 mt-1.5 font-medium">
             Architected specifically for Indian Institute of Information Technology Pune's academic, laboratory, and residential ecosystem.
           </p>
         </div>
@@ -267,7 +267,7 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
             <div className="w-10 h-10 rounded-xl bg-[#4F46E5] text-white flex items-center justify-center font-extrabold text-sm mb-4 shadow-xs">
               1
             </div>
-            <h3 className="text-sm font-bold text-stone-900">Zero Double-Booking Guarantee</h3>
+            <h3 className="text-base font-bold text-stone-900">Zero Double-Booking Guarantee</h3>
             <p className="text-xs text-stone-600 mt-2 leading-relaxed">
               Strict database-level exclusion locking serializes booking requests. Even during high-traffic semester registration, overlapping reservations are strictly prevented.
             </p>
@@ -277,7 +277,7 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
             <div className="w-10 h-10 rounded-xl bg-[#4F46E5] text-white flex items-center justify-center font-extrabold text-sm mb-4 shadow-xs">
               2
             </div>
-            <h3 className="text-sm font-bold text-stone-900">Automated Safety EventBridge</h3>
+            <h3 className="text-base font-bold text-stone-900">Automated Safety EventBridge</h3>
             <p className="text-xs text-stone-600 mt-2 leading-relaxed">
               When a high-priority incident is reported in a lab or hall, the venue is suspended automatically, alerting affected students and staff instantly.
             </p>
@@ -287,7 +287,7 @@ export const PortalHome: React.FC<PortalHomeProps> = ({
             <div className="w-10 h-10 rounded-xl bg-[#4F46E5] text-white flex items-center justify-center font-extrabold text-sm mb-4 shadow-xs">
               3
             </div>
-            <h3 className="text-sm font-bold text-stone-900">End-to-End Maintenance Dispatch</h3>
+            <h3 className="text-base font-bold text-stone-900">End-to-End Maintenance Dispatch</h3>
             <p className="text-xs text-stone-600 mt-2 leading-relaxed">
               Tickets flow through a strict state machine: Open &rarr; Assigned &rarr; Resolved with timestamped audit logs for estate facilities governance.
             </p>

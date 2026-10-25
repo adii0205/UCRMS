@@ -48,7 +48,7 @@ export const Header: React.FC<HeaderProps> = ({
           onClick={() => onSelectView('home')}
         />
         <div className="mt-1 flex items-center justify-center gap-2">
-          <span className="text-[11px] sm:text-xs font-semibold text-blue-100 tracking-wider uppercase px-3 py-0.5 rounded-full bg-blue-900/80 border border-blue-600/40">
+          <span className="text-xs sm:text-sm font-semibold text-blue-100 tracking-wider uppercase px-3 py-0.5 rounded-full bg-blue-900/80 border border-blue-600/40">
             Unified Campus Resource &amp; Maintenance System (UCRMS)
           </span>
         </div>
@@ -63,24 +63,24 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => onSelectView('home')}
               className="flex items-center gap-2.5 text-left group"
             >
-              <div className="w-9 h-9 rounded-xl bg-[#4F46E5] text-white flex items-center justify-center font-extrabold text-base shadow-xs group-hover:bg-[#4338CA] transition-colors">
+              <div className="w-10 h-10 rounded-xl bg-[#4F46E5] text-white flex items-center justify-center font-extrabold text-base shadow-xs group-hover:bg-[#4338CA] transition-colors">
                 U
               </div>
               <div>
-                <span className="font-extrabold text-base text-stone-900 tracking-tight block leading-tight">
+                <span className="font-extrabold text-base text-stone-900 tracking-tight block leading-tight text-lg">
                   UCRMS Portal
                 </span>
-                <span className="text-[11px] text-stone-500 font-medium">
+                <span className="text-xs text-stone-500 font-medium">
                   IIIT Pune Campus Network
                 </span>
               </div>
             </button>
 
             {/* Navigation Links */}
-            <nav className="hidden md:flex items-center gap-1.5 text-xs font-semibold">
+            <nav className="hidden md:flex items-center gap-1.5 text-sm font-semibold">
               <button
                 onClick={() => onSelectView('home')}
-                className={`px-3.5 py-2 rounded-lg transition-colors ${
+                className={`px-4 py-2.5 rounded-lg transition-colors ${
                   currentView === 'home'
                     ? 'text-[#4F46E5] bg-indigo-50 font-bold'
                     : 'text-stone-600 hover:text-stone-900 hover:bg-stone-50'
@@ -90,7 +90,7 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
               <button
                 onClick={() => onSelectView('dashboard')}
-                className={`px-3.5 py-2 rounded-lg transition-colors ${
+                className={`px-4 py-2.5 rounded-lg transition-colors ${
                   currentView === 'dashboard'
                     ? 'text-[#4F46E5] bg-indigo-50 font-bold'
                     : 'text-stone-600 hover:text-stone-900 hover:bg-stone-50'
@@ -98,30 +98,11 @@ export const Header: React.FC<HeaderProps> = ({
               >
                 Facilities &amp; Booking
               </button>
-              <button
-                onClick={() => onSelectView('concurrency')}
-                className={`px-3.5 py-2 rounded-lg transition-colors ${
-                  currentView === 'concurrency'
-                    ? 'text-[#4F46E5] bg-indigo-50 font-bold'
-                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-50'
-                }`}
-              >
-                Concurrency Engine
-              </button>
-              <button
-                onClick={() => onSelectView('jmeter')}
-                className={`px-3.5 py-2 rounded-lg transition-colors ${
-                  currentView === 'jmeter'
-                    ? 'text-[#4F46E5] bg-indigo-50 font-bold'
-                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-50'
-                }`}
-              >
-                JMeter Load Testing
-              </button>
+              
               {currentUser.role === 'Admin' && (
                 <button
                   onClick={() => onSelectView('admin')}
-                  className={`px-3.5 py-2 rounded-lg transition-colors ${
+                  className={`px-4 py-2.5 rounded-lg transition-colors ${
                     currentView === 'admin'
                       ? 'text-[#4F46E5] bg-indigo-50 font-bold'
                       : 'text-stone-600 hover:text-stone-900 hover:bg-stone-50'
